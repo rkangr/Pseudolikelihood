@@ -7,9 +7,9 @@ library(dplyr)
 optim_trace <- 0
 optim_maxiter <- 20000
 EM_maxiter <- optim_maxiter
-opt_reltol <- 10^(-13)
-opt_factr=100
-eps_opt=10^(-13)
+opt_reltol <- 10^(-12)
+opt_factr=10^3
+eps_opt=10^(-12)
 
 
 ## Implemented methods and helper functions
